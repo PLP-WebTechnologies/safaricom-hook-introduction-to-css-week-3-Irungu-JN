@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics Assignment</title>
+
+    <!-- Part 2: Internal CSS -->
+    <style>
+        /* Element Selector: Change the font size of all headings */
+        h1, h2, h3 {
+            font-size: 24px;
+        }
+
+        /* Class Selector: Apply a background color to specific sections */
+        .section {
+            background-color: lightblue;
+            padding: 10px;
+        }
+
+        /* ID Selector: Add a border to an element with a unique ID */
+        #unique-section {
+            border: 2px solid black;
+            padding: 10px;
+        }
+
+        /* Internal styles for basic styling */
+        p {
+            text-align: justify;
+            margin: 10px 0;
+        }
+
+        .card {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 15px;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+        }
+
+        .card h2 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #333;
+        }
+    </style>
+
+    <!-- Link to External CSS File -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Part 1: Element Selector -->
+    <h1>Welcome to CSS Basics</h1>
+    <p>This is a paragraph explaining the basics of CSS styling.</p>
+
+    <!-- Part 1: Class Selector -->
+    <div class="section">
+        <h2>Section with Class</h2>
+        <p>Content in this section is styled with a background color.</p>
+    </div>
+
+    <!-- Part 1: ID Selector -->
+    <div id="unique-section">
+        <h2>Unique Section</h2>
+        <p>This section has a unique border style.</p>
+    </div>
+
+    <!-- Part 2: Inline CSS -->
+    <p style="color: red;">This paragraph is styled with inline CSS.</p>
+
+    <!-- Part 3: Card Component -->
+    <div class="card">
+        <h2>Card Title</h2>
+        <p>This is a simple card component with padding, margin, and a subtle border.</p>
+    </div>
+
+</body>
+</html>
